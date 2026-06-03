@@ -1,0 +1,35 @@
+# ── Private mapping files (contain student identity data) ────────────────────
+*_mapping*
+*PRIVATE*
+*private*
+
+# ── Grading outputs (contain student scores) ─────────────────────────────────
+gradebook_import_*.csv
+discussion_grades_*.csv
+a3_grades_*.csv
+a2_warnings_*.txt
+a2_validation_*.txt
+a3_warnings_*.txt
+
+# ── Downloaded submission folders ─────────────────────────────────────────────
+a2_games/
+a3_submissions/
+
+# ── Excel files with student data ─────────────────────────────────────────────
+a2_tables.xlsx
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+*.env
+config.py
+secrets.py
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
